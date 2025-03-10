@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,7 +10,14 @@ module.exports = {
         color_logo: "#e97338"
 
       },
+      screens: {
+        'custom-658': '658px', // Define un breakpoint en 658px
+      },
+      
     },
+    boxShadow: {
+      navbar: "0px 8px 11px rgba(0, 0, 0, 0.04)"
+    }
   },
   plugins: [
     function ({addUtilities}) {

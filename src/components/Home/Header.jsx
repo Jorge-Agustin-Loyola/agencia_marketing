@@ -2,25 +2,16 @@ import { Typewriter } from "react-simple-typewriter"
 import { Link } from "react-router-dom"
 
 function Header() {
+    const linkStyle = "flex-inline text-lg inline-flex mx-4 text-sm font-medium leading-6 text-gray-900 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:bg-color_logo "
     return (
         <main>
-            <div className="relative px-6 lg:px-8">
-                <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+            <div className="relative px-4 lg:px-5">
+                <div className=" max-w-3xl pt-20 pb-32 sm:pt-24 sm:pb-5">
                     <div>
-                        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                            <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                                <span className="text-gray-600">
-                                    Announcing our next round of funding.{' '}
-                                    <a href="#" className="font-semibold text-indigo-600">
-                                        <span className="absolute inset-0" aria-hidden="true" />
-                                        Read more <span aria-hidden="true">&rarr;</span>
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
+                        
                         <div>
-                            <div className="h-[120px] flex  justify-start">
-                                <h1 className="text-4xl font-bold tracking-tight  sm:text-6xl">
+                            <div className="h-auto min-h-[120px]  flex  justify-start">
+                                <h1 className="text-3xl  tracking-tight  md:text-6xl">
                                     Data
 
                                     <Typewriter
@@ -37,38 +28,25 @@ function Header() {
                                 </h1>
                             </div>
                             <div className="mt-3">
-                                <ul className="flex gap-8">
-                                    <li className="flex-inline">
-                                        <Link>item1</Link>
+                                <ul className="flex ">
+                                    <li className={linkStyle}>
+                                        <Link>web</Link>
                                     </li>
-                                    <li className="flex-inline">
-                                        <Link>item2</Link>
+                                    <li className={linkStyle}>
+                                        <Link>App</Link>
                                     </li>
-                                    <li className="flex-inline">
-                                        <Link>item3</Link>
+                                    <li className={linkStyle}>
+                                        <Link>Video Juegos</Link>
+                                    </li>
+                                    <li className={linkStyle}>
+                                        <Link>Marketing</Link>
+                                    </li>
+                                    <li className={linkStyle}>
+                                        <Link>Consultorias</Link>
                                     </li>
                                 </ul>
                             </div>
-                            <div className="mt-8 flex gap-x-4 sm:justify-center">
-                                <a
-                                    href="#"
-                                    className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-                                >
-                                    Get started
-                                    <span className="text-indigo-200" aria-hidden="true">
-                                        &rarr;
-                                    </span>
-                                </a>
-                                <a
-                                    href="#"
-                                    className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                                >
-                                    Live demo
-                                    <span className="text-gray-400" aria-hidden="true">
-                                        &rarr;
-                                    </span>
-                                </a>
-                            </div>
+                           
                         </div>
                         <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-sm sm:top-[calc(100%-30rem)]">
                             <svg
