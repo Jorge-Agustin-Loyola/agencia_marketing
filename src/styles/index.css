@@ -8,6 +8,7 @@
     font-weight: 500;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'EuclidCircularB';
     src: url('../fonts/Euclid_Circular_B_Medium.woff2') format('woff2');
@@ -46,6 +47,11 @@
 
 #benefits-h2{
     font-family: "Graphik", sans-serif;
+}
+#benefits__card_desc{
+    font-family: "Graphik", sans-serif;
+   
+
 }
 #benefits-h3{
     font-family: "EuclidCircularB", sans-serif;

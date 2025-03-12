@@ -4,9 +4,25 @@ import logo_fs from "assets/img/LogoFullStack.PNG"
 import loading_dots from "assets/img/loading_dots.gif"
 
 function Navbar() {
+
+    window.onscroll = function(){scrollFunction()}
+    function scrollFunction(){
+        if(document.getElementById('navbar')){
+            if(document.body.scrollTop>50 || document.documentElement.scrollTop>50){
+                document.getElementById('navbar').classList.add('shadow-navbar');
+                document.getElementById('navbar').classList.add('bg-white');
+            }else{
+                document.getElementById('navbar').classList.remove('shadow-navbar');
+                document.getElementById('navbar').classList.remove('bg-white');
+
+            }
+        }
+    }
+
+
     const classNavLink = ({isActive})=>`text-lg inline-flex mx-4 text-sm font-medium leading-6 text-gray-900 ${isActive ?'underline_custom' : "relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full hover:after:bg-color_logo "} `
     return (
-        <nav className="fixed top-0 left-0 w-full py-2 bg-white text-black  shadow-navbar z-10 "
+        <nav id="navbar" className="fixed top-0 left-0 w-full py-2 bg-white text-black  shadow-navbar z-10 "
 >          <div className="  bg-whithe px-4 sm:px-6">
                 <div className="  -mt-2 flex flex-wrap justify-between sm:flex-nowrap md:px-14 px-2">
                     <Link to="/" className="m-2">
