@@ -16,7 +16,8 @@ module.exports = {
       
     },
     boxShadow: {
-      navbar: "0px 8px 11px rgba(0, 0, 0, 0.04)"
+      "navbar": "0px 8px 11px rgba(0, 0, 0, 0.04)",
+      "btnCarousel": "0px 8px 9px rgba(0, 0, 0, 0.06)"
     }
   },
   plugins: [
