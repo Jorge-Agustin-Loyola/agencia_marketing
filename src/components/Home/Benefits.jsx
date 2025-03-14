@@ -14,7 +14,7 @@ function Benefits() {
     const benefits__card_title = "text-[22px] font-[500] leading-[28px] mt-[27px]"
     const benefits__card_desc = "mt-[6px] text-[14px] font-thin leadint-[24px]"
     return (
-        <section id="benefits" className="pt-[71px] pb-[71px]">
+        <section id="benefits" className="pt-[17px] pb-[17px]">
             <div id="container" className="max-w-[1142px] mx-auto">
                 <div className="flex" >
                     <h2 id="benefits-h2" className="max-w-[484px] h-auto  pr-[141px]  text-[35px] font-semibold leading-[48px]  ">Why should you choose Fireart digital product agency?</h2>
@@ -77,7 +77,7 @@ function Benefits() {
                     </div>
                 </div>
             </div>
-            <img className="benefits__bg" src="/wp-content/themes/fireart/assets/img/benefits/palm-leaf.svg" alt="Palm leaf" loading="lazy" data-aos="fade-in" data-aos-delay="100"></img>
+           
         </section>
     )
  

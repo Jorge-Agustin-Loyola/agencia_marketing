@@ -1,7 +1,7 @@
 import Layout from "hocs/layouts/Layout"
 import Navbar from "components/navigation/Navbar"
 import Footer from "components/navigation/Footer"
-import Cases from "components/Home/cases"
+import Cases from "components/Home/cases/cases"
 import Header from "components/Home/Header"
 import Benefits from "components/Home/Benefits"
 function Home(){
