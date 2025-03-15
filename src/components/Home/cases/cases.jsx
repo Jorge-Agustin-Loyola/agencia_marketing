@@ -1,8 +1,10 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import React, {useState} from 'react'
-
+import React, {useState} from 'react';
 import Case from './case';
+import case01 from "../../../assets/img/cases/cases01.webp";
+import case02 from "../../../assets/img/cases/cases02.webp";
+import case03 from "../../../assets/img/cases/cases03.webp";
 
 function Cases() {
     const responsive = {
@@ -60,37 +62,37 @@ function Cases() {
         {
             title: "Equine is an NFT horse racing game. Race, breed, sell & buy horses",
             link: "/cases/equine-is-an-nft-horse-racing-game-race-breed-sell-buy-horses/",
-            image: "/wp-content/themes/fireart/assets/img/cases/equine.webp",
+            image: case01,
             tags: ["Research", "UX/UI Design", "Development"],
         },
         {
             title: "Sprightful",
             link: "/cases/sprightful/",
-            image: "/wp-content/themes/fireart/assets/img/cases/sprightful.webp",
+            image: case02,
             tags: ["UX/UI Design", "Research", "Development"],
         },
         {
             title: "Diabetes Control",
             link: "/cases/diabetes-control/",
-            image: "/wp-content/themes/fireart/assets/img/cases/diabetes-control.webp",
+            image: case03,
             tags: ["Development", "Product Design"],
         },
         {
             title: "Databox",
             link: "/cases/data-pipeline-app/",
-            image: "/wp-content/themes/fireart/assets/img/cases/databox.webp",
+            image: case01,
             tags: ["Development", "Product Design"],
         },
         {
             title: "Tasty",
             link: "/cases/tasty/",
-            image: "/wp-content/themes/fireart/assets/img/cases/tasty.webp",
+            image: case02,
             tags: ["Development", "Product Design"],
         },
         {
             title: "Lime Home",
             link: "/cases/limehome/",
-            image: "/wp-content/themes/fireart/assets/img/cases/lime-home.webp",
+            image: case03,
             tags: ["Product Design"],
         },
     ]);
@@ -99,8 +101,8 @@ function Cases() {
     const seccioinCases = "py-[17px] bg-[#F3F3F3]";
     const container = "max-w-[1142px] mx-auto"
     const title = "text-[32px] leading-[48px]"
-    const cases__slider_wrp = "mt-[48px]"
-    const swiper_cases__slide = ""
+    const cases__slider_wrp = "mt-[48px] pl-[calc((100%-1142px)/2)]"
+    const swiper_cases__slider = ""
 
     return (
         <section className={seccioinCases}>
@@ -123,7 +125,7 @@ function Cases() {
                             draggable
                             focusOnSelect={false}
                             infinite
-                            itemClass=""
+                            itemClass=" px-[15px]"
                             keyBoardControl
                             minimumTouchDrag={80}
                             pauseOnHover
@@ -139,6 +141,7 @@ function Cases() {
                             sliderClass=""
                             slidesToSlide={1}
                             swipeable
+                            
                         >
                             
                            { cases.map((caseItem , index)=>{
