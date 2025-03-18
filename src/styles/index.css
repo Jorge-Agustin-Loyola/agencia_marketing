@@ -45,14 +45,11 @@
     display: none; /* Oculta las flechas */
 }
 
-#benefits-h2{
+#benefits-h2,#benefits__card_desc,#Expertice{
     font-family: "Graphik", sans-serif;
 }
-#benefits__card_desc{
-    font-family: "Graphik", sans-serif;
-   
 
-}
-#benefits-h3,#title_container_cases{
+
+#benefits-h3,#title_container_cases,#expertice_title,#EuclidCircularB{
     font-family: "EuclidCircularB", sans-serif;
 }
