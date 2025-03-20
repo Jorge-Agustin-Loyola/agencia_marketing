@@ -6,6 +6,7 @@ import Header from "components/Home/Header"
 import Benefits from "components/Home/Benefits"
 import Expertise from "components/Home/expertise"
 import Clients from "components/Home/clients"
+import Achievement from "components/Home/achievement"
 function Home() {
     return (
         <Layout>
@@ -27,6 +28,14 @@ function Home() {
             <div className="py-2 px-2 mx-14" >
                 <Clients />
             </div>
+
+            {/* Esto es un separador */}
+            <div className="w-full h-[2px] bg-[#eaeaea]"></div>
+
+            <div className="py-2 px-2 mx-14" >
+                <Achievement />
+            </div>
+
 
             <Footer />
         </Layout>

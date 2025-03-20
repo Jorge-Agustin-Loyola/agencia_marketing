@@ -20,7 +20,7 @@ function Benefits() {
                     <h2 id="benefits-h2" className="max-w-[484px] h-auto  pr-[141px]  text-[35px] font-semibold leading-[48px]  ">Why should you choose Fireart digital product agency?</h2>
                     <p className="font-extraligth text-[16px] leading-[26px] pr-[100px]">Fireart Studio is a boutique digital product design and development studio. We have 50+ JS and design experts on board and 6+ years of experience in building digital projects from scratch or refreshing existing ones.</p>
                 </div>
-                <div className="max-w-[657px] grid grid-cols-2 grid-rows-3 gap-[120px] p-4 mt-[60px] bg-gray-100">
+                <div className="max-w-[657px] grid grid-cols-2 grid-rows-3 gap-[120px] p-4 mt-[60px] bg-white">
                     <div className={benefits_col}>
                         <div className="benefits__card" data-aos="fade-in" data-aos-delay="100">
                             <div className={benefits_card_icon}>
