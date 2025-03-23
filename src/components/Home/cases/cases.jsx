@@ -110,7 +110,7 @@ function Cases() {
                 <h2 id="title_container_cases" className={title} >Some of Our Cases</h2>
             </div>
             <div className={cases__slider_wrp}>
-                <div className={swiper_cases__slider} data-aos="fade-in" data-aos-delay="150">
+                <div className={swiper_cases__slider}>
                     <div className="swiper-wrapper">
                         <Carousel
                             additionalTransfrom={0}
