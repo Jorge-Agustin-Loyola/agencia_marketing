@@ -31,8 +31,8 @@ function Navbar() {
                     <div className="ml-4 mt-2 flex-shrink-0">
                         <NavLink to="/Cases" className={classNavLink}>Casos</NavLink>
                         <NavLink to="/Services" className={classNavLink}>Servicios</NavLink>
-                        <NavLink to="/Careers" className={classNavLink}>Carreras</NavLink>
-                        <NavLink to="/Podcast" className={classNavLink}>Podcast</NavLink>
+                        {/* <NavLink to="/Careers" className={classNavLink}>Carreras</NavLink>
+                        <NavLink to="/Podcast" className={classNavLink}>Podcast</NavLink> */}
                         <NavLink to="/Blog" className={classNavLink}>Blog</NavLink>
                         <NavLink to="/About_Us" className={classNavLink}>Nosotros</NavLink>
                         <NavLink to="/Contact" className={classNavLink} >Contacto</NavLink>
