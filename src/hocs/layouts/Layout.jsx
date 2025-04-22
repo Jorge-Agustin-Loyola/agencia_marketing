@@ -1,4 +1,5 @@
 import { connect } from "react-redux";
+import { Outlet } from 'react-router-dom';
 
 function Layout({children}){
     return(
