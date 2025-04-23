@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Random_post() {
+function RandomPost() {
     return (
 
         <section className="pt-[60px] pb-[45px] bg-[#f3f3f3]">
@@ -73,4 +73,4 @@ function Random_post() {
     )
 }
 
-export default Random_post
+export default RandomPost

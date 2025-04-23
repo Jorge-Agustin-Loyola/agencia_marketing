@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 import logo_fs from "assets/img/LogoFullStack.PNG"
 
 
@@ -178,6 +178,8 @@ function Footer() {
   )
 }
 
-const mapStateToProps = state => ({})
+export default Footer
 
-export default connect(mapStateToProps, null)(Footer)
+// const mapStateToProps = state => ({})
+
+// export default connect(mapStateToProps, null)(Footer)

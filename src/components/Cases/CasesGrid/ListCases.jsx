@@ -16,7 +16,7 @@ function ListCases() {
                         let id_title = "title_" + String(index)
                         return (
                             <CardCase
-
+                                key={index}
                                 id_image= {id_img}
                                 id_title= {id_title}
                                 title = {item.title}

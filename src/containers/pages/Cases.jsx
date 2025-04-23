@@ -1,16 +1,12 @@
-import Navbar from "components/navigation/Navbar"
-import Footer from "components/navigation/Footer"
-import Layout from "hocs/layouts/Layout"
 import Hero from "components/Cases/Hero"
 import ListCases from "components/Cases/CasesGrid/ListCases"
-import Random_post from "components/Home/random_post"
+import RandomPost from "components/Home/RandomPost"
 import Prefooter from "components/Home/prefooter"
 import { Helmet } from "react-helmet-async"
 function Cases(){
     return(
-        <Layout>
+        <div>
             <Helmet>
-                    <title>FullStack | Casos</title>
                     <meta name="description" content="Agencia de software y marketing digital Creacion de paginas web y desarrollo de aplicaciones" />
                     <meta name="keywords" content="desarrollo web, diseño web, desarrollo de sitios web, aplicaciones web, React, Node.js, HTML5, CSS3, JavaScript, diseño responsive, optimización SEO, desarrollo full stack, páginas web profesionales, landing pages, tiendas online" />
                     <meta name="robots" content="all" />
@@ -30,19 +26,20 @@ function Cases(){
                     <meta name="twitter:description" content="Creamos sitios web rápidos, modernos y optimizados para buscadores. Soluciones web a medida con tecnologías como React y Node.js." />
                     <meta name="twitter:image" content="https://tusitio.com/img/preview.jpg" />
                     <meta name="twitter:site" content="@TuCuentaTwitter" />
+                    <title>FullStack | Casos</title>
             
             
             </Helmet>
 
             <div className=""  >
-                <Navbar/>
+                
                 <Hero />
                 <ListCases/>
-                <Random_post/>
+                <RandomPost/>
                 <Prefooter/>
             </div>
-            <Footer/>
-        </Layout> 
+            
+        </div> 
     )
 }
 

@@ -1,6 +1,3 @@
-import Navbar from "components/navigation/Navbar"
-import Footer from "components/navigation/Footer"
-import Layout from "hocs/layouts/Layout"
 import Hero from "components/About_Us/Hero"
 import Clients from "components/Home/clients"
 import Achievement from "components/Home/achievement"
@@ -11,7 +8,7 @@ import { Helmet } from "react-helmet-async"
 
 function About_Us(){
     return(
-        <Layout >
+        < div>
             <Helmet>
                 <title>FullStack | Nosotros</title>
                 <meta name="description" content="Agencia de software y marketing digital Creacion de paginas web y desarrollo de aplicaciones" />
@@ -37,7 +34,7 @@ function About_Us(){
 
             </Helmet>
 
-            <Navbar/>
+            
             <Hero/>
             <Clients/>
             <Achievement/>
@@ -47,8 +44,8 @@ function About_Us(){
             </div>
             <Benefits/>
             <Prefooter/>
-            <Footer/>
-        </Layout>
+            
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 
-const CardServices = ({key,title,description,icon}) => {
+const CardServices = ({title,description,icon}) => {
     const services__item_link = useRef(null) 
     const services_svg_link = useRef(null)
     return (
@@ -19,7 +19,7 @@ const CardServices = ({key,title,description,icon}) => {
                 }
             }}
         
-            name="services__col" key={key}  className="flex w-full max-w-[33.33333%] px-[10px] mt-[20px]  shadow-lg transition duration-400 ease-linear hover:translate-y-[-5px] hover:shadow-navbar" data-aos="fade-in" data-aos-delay="100"
+            name="services__col"  className=" flex w-full max-w-[33.33333%] px-[10px] mt-[20px]  shadow-lg transition duration-400 ease-linear hover:translate-y-[-5px] hover:shadow-navbar z-1" data-aos="fade-in" data-aos-delay="100"
             
         > 
        
