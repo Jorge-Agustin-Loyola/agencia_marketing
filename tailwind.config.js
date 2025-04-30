@@ -11,6 +11,14 @@ module.exports = {
 
       },
       screens: {
+        'xs': '320px',     // móviles pequeños
+        'sm': '480px',     // móviles estándar
+        'md': '768px',     // tablets verticales
+        'lg': '1024px',    // tablets horizontales / laptops
+        'xl': '1280px',    // monitores medianos
+        '2xl': '1536px',   // pantallas grandes
+        '3xl': '1920px',   // full HD
+        '4k': '2560px',    // ultra HD
         'custom-658': '658px', // Define un breakpoint en 658px
       },
       
