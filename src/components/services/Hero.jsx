@@ -4,7 +4,7 @@ const Hero = () => {
     return (
 
         <section className="pb-[42px] w-full  flex flex-column ">
-            <div className="mx-[101px] w-full max-w-[1142px]  flex flex-col justify-between ">
+            <div className="lg:mx-[101px] w-full max-w-[1142px]  flex flex-col justify-between ">
 
 
                 <div className="h-[60px]"></div>
@@ -12,11 +12,11 @@ const Hero = () => {
                 <div className="flex justify-between  ">
 
 
-                    <div className="max-w-[56%] py-[50px]">
+                    <div className="lg:max-w-[56%] py-[50px]">
                         <h1 id="hero__title" className="text-[#000] text-[44px] leading-[56px]" data-aos="fade-in" data-aos-delay="500">Software Development<br/>Services</h1>
                         <p className="text-[18px] leading-[28px] mt-[45px] " data-aos="fade-in" data-aos-delay="500">We love to shake established thought-patterns and create what has never been attempted before. We take seeds and grow jungles</p>
                     </div>
-                    <div className="mt-[-60px]">
+                    <div className="mt-[-60px] lg:block hidden">
                         <img className="w-[411px] h-[411px]" src="https://fireart.studio/wp-content/themes/fireart/assets/img/hero/services.webp" alt="Software Development Services"></img>
                     </div>
                 </div>

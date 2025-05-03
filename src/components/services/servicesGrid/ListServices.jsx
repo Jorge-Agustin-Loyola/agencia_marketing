@@ -7,11 +7,11 @@ const ListServices = () => {
 
         <section name="services" className="bg-[#f3f3f3] pt-[66px] pb-[77px]">
 
-            <div name="container" className="w-full mx-auto max-w-[1142px]">
+            <div name="container" className="w-full md:mx-auto md:max-w-[1142px]">
 
                 <h2 id="title_services__title" name="title services__title" className="text-[38px] leading-[48px]">Software and Product Development</h2>
                
-                <div name="services__row" className="flex flex-wrap w-full  py-[10px] mt-[20px]">
+                <div name="services__row" className="flex flex-col md:flex-row md:flex-wrap w-full  py-[10px] mt-[20px]">
                     {soft_And_Product.map((item, index) => {
                         return (
                             <CardServices
@@ -27,7 +27,7 @@ const ListServices = () => {
                 </div>
 
                 <h2 id="title_services__title" name="services__title" className=" mt-[80px] text-[38px] leading-[48px]" >Design Services</h2>
-                <div name="services__row" className="flex flex-wrap w-full  py-[10px] mt-[20px]">
+                <div name="services__row" className="flex flex-col md:flex-row md:flex-wrap w-full  py-[10px] mt-[20px]">
                     {desing_Services.map((item, index) => {
                         return (
                             <CardServices

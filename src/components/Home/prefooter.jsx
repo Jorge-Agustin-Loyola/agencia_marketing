@@ -7,7 +7,7 @@ const Prefooter = () => {
 
             <div className="w-full mx-auto max-w-[1142px] relative">
 
-                <h2 id="h2_prefooter" className="max-w-[1100px] text-[58px] leading-[76px] relative" >Let's make something amazing together<br/>Start by <Link className="text-color_logo underline" href="#popup-contact">saying hi</Link></h2>
+                <h2 id="h2_prefooter" className="max-w-[1100px] text-[35px] md:text-[58px] leading-[76px] relative" >Let's make something amazing together<br/>Start by <Link className="text-color_logo underline" href="#popup-contact">saying hi</Link></h2>
             </div>
 
 

@@ -19,7 +19,7 @@ const CardServices = ({title,description,icon}) => {
                 }
             }}
         
-            name="services__col"  className=" flex w-full max-w-[33.33333%] px-[10px] mt-[20px]  shadow-lg transition duration-400 ease-linear hover:translate-y-[-5px] hover:shadow-navbar z-1" data-aos="fade-in" data-aos-delay="100"
+            name="services__col"  className=" flex w-full lg:max-w-[33.33333%]  lg:px-[10px] mt-[20px]  shadow-lg transition duration-400 ease-linear hover:translate-y-[-5px] hover:shadow-navbar z-1" data-aos="fade-in" data-aos-delay="100"
             
         > 
        

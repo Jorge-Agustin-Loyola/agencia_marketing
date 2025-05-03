@@ -12,7 +12,7 @@ module.exports = {
       },
       screens: {
         'xs': '320px',     // móviles pequeños
-        'sm': '480px',     // móviles estándar
+        'sm': '355px',     // móviles estándar
         'md': '768px',     // tablets verticales
         'lg': '1024px',    // tablets horizontales / laptops
         'xl': '1280px',    // monitores medianos

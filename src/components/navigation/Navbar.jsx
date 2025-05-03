@@ -62,8 +62,8 @@ function Navbar() {
 
     return (
         <nav id="navbar" className="fixed top-0 left-0 w-full py-2  text-black transition duration-500 easy-in-out shadow-navbar z-10 ">
-            <div className=" lg:px-4 sm:px-6">
-                <div className="  -mt-2 flex flex-wrap justify-between sm:flex-nowrap md:px-14 px-2 ">
+            <div className=" lg:px-4 ">
+                <div className="  -mt-2 flex flex-wrap justify-between  px-2 ">
                     <Link to="/" className="m-2">
                         <img src={logo_fs} className="w-20 h-auto rounded-md" />
                     </Link>
@@ -86,7 +86,7 @@ function Navbar() {
 
                     <button
                         onClick={toggleMenu}
-                        className="xs:block lg:hidden"
+                        className="xs:block lg:hidden z-10"
                     >
 
                         {
@@ -98,17 +98,13 @@ function Navbar() {
                     <AnimatePresence>
                         {isOpen && (
                             <motion.div
-                            // initial={{ opacity: 0, x: -10 }}
-                            // animate={{ opacity: 1, x: 0 }}
-                            // exit={{ opacity: 0, y: -10 }}
-                            // transition={{ duration: 0.2 }}
-                            // className="relative mt-2 w-screen h-screen bg-white rounded shadow-lg z-10"
+
                                 variants = {menuVariant}
                                 initial="hidden"
                                 animate="visible"
                                 exit="exit"
                                 
-                                className="relative mt-2 w-screen h-screen bg-white rounded shadow-lg z-10"
+                                className="relative mt-2 w-screen h-screen bg-white rounded shadow-lg z-9"
                             >
                                 <ul className="py-2">
                                    {[ <NavLink onClick={toggleMenu} to="/Cases" className={classNavLink}>Casos</NavLink>,

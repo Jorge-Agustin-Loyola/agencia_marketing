@@ -10,7 +10,7 @@ function ListCases() {
         <div name="case_grid" className="pt-[66px] pb-[77px]">
 
             <div name="container" className="w-full mx-auto max-w-[1142px]">
-                <div name="cases-grid__row" className="flex flex-wrap mx-[-5%]" >
+                <div name="cases-grid__row" className="flex flex-col md:flex-row md:flex-wrap mx-[-5%]" >
                     {cases.map((item, index) => {                    
                         let id_img = "img_" + String(index)
                         let id_title = "title_" + String(index)

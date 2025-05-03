@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet-async"
 
 function Home() {
     return (
-        <div>
+        <div className="">
             <Helmet>
 
 
@@ -40,28 +40,28 @@ function Home() {
             </Helmet>
 
 
-            <div className="py-2 px-2 mx-14" style={{ marginTop: "75px" }} >
+            <div className="py-2 px-2 lg:mx-14  xs:mx-0" style={{ marginTop: "75px" }} >
                 <Header />
                 <Benefits />
             </div>
 
             <Cases />
 
-            <div className="py-2 px-2 mx-14" >
+            <div className="py-2 px-2 mx-14  xs:mx-0" >
                 <Expertise />
             </div>
 
             {/* Esto es un separador */}
             <div className="w-full h-[2px] bg-[#eaeaea]"></div>
 
-            <div className="py-2 px-2 mx-14" >
+            <div className="py-2 px-2 mx-14  xs:mx-0" >
                 <Clients />
             </div>
 
             {/* Esto es un separador */}
             <div className="w-full h-[2px] bg-[#eaeaea]"></div>
 
-            <div className="py-2 px-2 mx-14" >
+            <div className="py-2 px-2 mx-14  xs:mx-0" >
                 <Achievement />
             </div>
 

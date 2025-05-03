@@ -4,7 +4,7 @@ const Hero = () => {
     return (
 
         <section className="pb-[42px] w-full  flex flex-column ">
-            <div className="mx-[101px] w-full max-w-[1142px]  flex flex-col justify-between ">
+            <div className="lg:mx-[101px] w-full max-w-[1142px]  flex flex-col justify-between ">
 
 
                 <div className="h-[60px]"></div>
@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className="flex justify-between  ">
 
 
-                    <div className="max-w-[56%] py-[50px]">
+                    <div className="md:max-w-[56%] py-[50px]">
                         <h1 id="hero__title" className="text-[#000] text-[44px] leading-[56px]" data-aos="fade-in" data-aos-delay="500">About Us</h1>
                         <p className="text-[18px] leading-[28px] mt-[45px] " data-aos="fade-in" data-aos-delay="500">Every company has its "Cinderella" story about those dark times when it has just started hitting the market. Our story takes its beginning in 2013, at a small office with a few like - minded people and bottomless cups of coffee, that kept us working throughout the night when we have just started building a company with a strong idea. We strived to build a brand that will contribute to the world with useful products that empower people and make their lives easier. We still believe in it today.</p>
                     </div>

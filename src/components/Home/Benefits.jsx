@@ -8,19 +8,19 @@ import u6 from "../../assets/img/benefits/u6.PNG";
 
 
 function Benefits() {
-    const benefits_col = "max-w-[267px] font-normal text-[14px] leading-[26px] "
+    const benefits_col = "py-[20px] max-w-[267px] font-normal lg:text-[14px]  leading-[26px]  "
 
     const benefits_card_icon = "w-[88px] h-[88px]"
-    const benefits__card_title = "text-[22px] font-[500] leading-[28px] mt-[27px]"
-    const benefits__card_desc = "mt-[6px] text-[14px] font-thin leadint-[24px]"
+    const benefits__card_title = "lg:text-[22px] md:text-[30px] md:mb-[15px] font-[500] leading-[28px] mt-[27px]"
+    const benefits__card_desc = "mt-[6px] lg:text-[14px] md:text-[18px] font-normal leadint-[24px]"
     return (
         <section id="benefits" className="pt-[17px] pb-[17px] leading-[20px]">
-            <div id="container" className="max-w-[1142px] mx-auto">
-                <div className="flex" >
-                    <h2 id="benefits-h2" className="max-w-[484px] h-auto  pr-[141px]  text-[35px] font-semibold leading-[48px]  ">Why should you choose Fireart digital product agency?</h2>
-                    <p className="font-extraligth text-[16px] leading-[26px] pr-[100px]">Fireart Studio is a boutique digital product design and development studio. We have 50+ JS and design experts on board and 6+ years of experience in building digital projects from scratch or refreshing existing ones.</p>
+            <div id="container" className="max-w-[1142px] ">
+                <div className="flex-col justify-between lg:inline-flex lg:flex-row" >
+                    <h2 id="benefits-h2" className="max-w-[484px] h-auto  lg:pr-[141px] text-[30px] lg:text-[35px] font-semibold leading-[48px]  ">Why should you choose Fireart digital product agency?</h2>
+                    <p className="lg:font-extraligth md:font-normal lg:text-[16px] md:text-[18px] leading-[26px] lg:pr-[100px]">Fireart Studio is a boutique digital product design and development studio. We have 50+ JS and design experts on board and 6+ years of experience in building digital projects from scratch or refreshing existing ones.</p>
                 </div>
-                <div className="max-w-[657px] grid grid-cols-2 grid-rows-3 gap-[120px] p-4 mt-[60px] bg-white">
+                <div className="max-w-[657px]  md:grid md:grid-cols-2 md:grid-rows-3 md:gap-[120px] p-4 mt-[10px] md:mt-[60px] bg-white">
                     <div className={benefits_col}>
                         <div className="benefits__card" data-aos="fade-in" data-aos-delay="100">
                             <div className={benefits_card_icon}>
